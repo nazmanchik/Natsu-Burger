@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+/* Universal Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+    width: 940px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+/* Img styles */
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* Heading Style */
+
+h1,
+h2,
+h3,
+h4 {
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h4 {
+    padding-top: 20px;
+}
+
+/* Paragraph styles */
+p {
+    line-height: 1.7rem;
+}
+
+/* Header - Navbar Styles */
+
+header {
+    height: 120px;
+}
+
+.logo {
+    float: left;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    line-height: 80px;
+    padding-left: 20px;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+}
+
+nav li a:hover {
+    border-bottom: 2px solid black;
+}
+
+/* Footer Styles */
+
+footer {
+    height: 120px;
+    clear: both;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 80px;
+    padding-left: 14px;
+    font-size: 14px;
+}
+
+footer li a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.webDesignInfo {
+    float: left;
+}
+
+.socialMedia {
+    float: right;
+}
+
+/******** INDEX PAGE STYLE  *********/
+
+/* Main Styles */
+
+main {
+    width: 620px;
+    height: 900px;
+    float: left;
+}
+
+/* Aside Styles */
+
+aside {
+    float: right;
+    width: 320px;
+    height: 900px;
+}
+
+aside h1 {
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+aside p {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/* Orders Styles */
+
+.mainGallery {
+    width: 940px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.image1 {
+    width: 460px;
+    height: 450px;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.image1 h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+}
+
+.orderBurger {
+    width: 260px;
+    height: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image2 {
+    width: 460px;
+    height: 450px;
+    float: right;
+}
+
+.image2 h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+}
+
+.orderBeer {
+    width: 260px;
+    height: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image3 {
+    width: 460px;
+    height: 450px;
+    float: left;
+    clear: both;
+}
+
+.image3 h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+}
+
+.orderFries {
+    width: 260px;
+    height: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image4 {
+    width: 460px;
+    height: 450px;
+    float: right;
+}
+
+.image4 h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+}
+
+.orderVeggies {
+    width: 260px;
+    height: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Catering Styles */
+
+.banner {
+    width: 50%;
+    height: 630px;
+    float: left;
+}
+
+.dinner {
+    width: 50%;
+    float: right;
+    display: block;
+    padding-left: 10px;
+
+}
+
+.lunch {
+    width: 50%;
+    float: right;
+    clear: right;
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.appetizers {
+    width: 50%;
+    float: left;
+    clear: both;
+    padding-top: 20px;
+}
+
+.appetizers img {
+    height: 120px;
+    padding-bottom: 20px;
+}
+
+.appetizers h2 {
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.appetizers p {
+    line-height: 1.7rem;
+}
+
+.events {
+    width: 50%;
+    height: 20%;
+    float: right;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.events img {
+    height: 120px;
+    padding-bottom: 20px;
+}
+
+.events h2 {
+    padding-bottom: 20px;
+    font-weight: 400;
+
+}
+
+.events p {
+    line-height: 1.7rem;
+}
+
+/* Specials Styling */
+
+.carouselWrapper {
+    height: 920px;
+    width: 50%;
+    float: left;
+}
+
+.carousel-section {
+    height: 840px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 800px;
+}
+
+.specialsList {
+    float: right;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.specialsList h4 {
+    padding-bottom: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+}
+
+.specialsList p {
+    line-height: 1.7rem;
+    padding-top: 12px;
+}
+
+/* About Styling */
+
+.about {
+    width: 50%;
+    float: left;
+    height: 450px;
+    ;
+    padding-bottom: 20px;
+}
+
+.aboutBlurb {
+    width: 50%;
+    float: right;
+    display: block;
+    padding-left: 40px;
+}
+
+.aboutBlurb h3 {
+    padding-bottom: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+}
+
+.aboutBlurb p {
+    line-height: 1.7rem;
+    padding-top: 40px;
+}
+
+.theTeam {
+    width: 50%;
+    height: 450px;
+    float: left;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.teamBlurb {
+    width: 50%;
+    float: right;
+    padding-left: 40px;
+}
+
+.teamBlurb h3 {
+    padding-bottom: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+}
+
+.teamBlurb p {
+    line-height: 1.7rem;
+    padding-top: 40px;
+}
